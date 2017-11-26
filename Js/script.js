@@ -1,5 +1,3 @@
-function fx() {
+$(document).ready(function () {
     
-}
-var btX = document.getElementById("btX");
-btX.addEventListener("click", fx);
+});

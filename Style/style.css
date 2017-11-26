@@ -1,12 +1,203 @@
-#teste {
-    position: fixed;
-    top:150px;
-    left: 300px;
+nav {
+    height: 135px;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
 }
-#teste1 {
-    margin-left: 100px;
-    margin-top: 50px;
+.nav {
+    margin: 39px 0px;
+    font-size: 10px;
+
 }
-#teste3:hover {
-    displ
+.navspan {
+    width: 200px;
+    height: 200px;
+    display: block;
+    float: left;
+    background-color: rgb(12, 8, 6);
+    margin-left: 150px;
+    position: relative;
+    z-index: 2;
+}
+.navimg {
+    margin-left: 25px;
+    margin-top: 25px;
+    width: 150px;
+    height: 150px;
+}
+nav > ul {
+    list-style: none;
+    height: 60px;
+    width: 840px;
+    padding: 0px;
+    margin: 40px 0px 0px 0px;
+    float: left;
+}
+ nav > ul > li {
+    float: left;
+    margin: 0px 30px;
+    width: 150px;
+    height: 60px;
+}
+nav {
+    min-width: 1440px;
+    background-color: rgb(12, 8, 6);
+}
+a > .pb {
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    text-align: center;
+}
+.liNav:hover .pb {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    margin-top: 10px
+
+}
+a > .ps {
+    color: rgb(255, 255, 255);
+    font-size: 13px;
+    text-align: center;
+
+}
+.liNav:hover .ps {
+    color: rgb(255, 255, 255);
+display: none;
+}
+ul {
+    list-style: none
+}
+span > p {
+    margin: 0px;
+    color: white
+}
+#contatbox {
+    display: block;
+    float: right;
+    width:200px;
+    margin: 37px 0px
+}
+header{
+    width: 100%;
+    height: 600px;
+    background: url(../Imgs/mockup_012.png) #202020 no-repeat;
+    background-size: cover;
+    max-height: 100%;
+    max-width: 100%;
+    margin-top: 3px;
+    min-width: 1440px;
+  }
+.contatimg{
+    width: 60px;
+    height: 60px;
+    float: left;
+}
+.perfil {
+    height: 580px;
+    width: 580px;
+    margin: 10px;
+    float: left;
+    position: relative;
+    right: 350px;
+    z-index: 1;
+    background-color:rgba(0, 0, 0, 0.8);
+}
+.perfilimg {
+    width:250px;
+    height: 250px;
+    float: left;
+    margin-top: 60px;
+    margin-left: 40px;
+}
+.psideimg1{
+    width: 250px;
+    height: 80px;
+    margin: 60px 300px 0px ;
+    font-family: title;
+    color: rgb(247, 148, 2);
+    font-size: 50px;
+    text-align: center;
+    
+}
+.psideimg2{
+    width: 200px;
+    height: 150px;
+    margin: 16px 320px 16px ;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.pbottonimg{
+    width: 480px;
+    height: 120px;
+    margin-left: 40px;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.curriculumaddon > div {
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin:0px 5px 10px;
+}
+.curriculumaddon > div > img {
+    width: 50px;
+    height: 50px;
+}
+.curriculumaddon {
+    width: 242px;
+    margin: 20px auto;
+}
+#contatname {
+    font-weight: bold;
+}
+#flag:hover {
+    width: 70px;
+    height: 70px;
+    position: relative;
+    right: 10px;
+    bottom: 10px;
+}
+#gear:hover {
+    width: 70px;
+    height: 70px;
+    position: relative;
+    right: 10px;
+    bottom: 10px;
+}
+#circ:hover {
+    width: 70px;
+    height: 70px;
+    position: relative;
+    right: 10px;
+    bottom: 10px;
+}
+#flag:hover {
+    width: 70px;
+    height: 70px;
+    position: relative;
+    right: 10px;
+    bottom: 10px;
+}
+#real:hover {
+    width: 70px;
+    height: 70px;
+    position: relative;
+    right: 10px;
+    bottom: 10px;
+}
+@font-face {
+    font-family: title;
+    src: url(../Fonts/title.ttf);
+}
+#ulcircle{
+    float: right;
+    width: 800px;
+    height: 300px;
+    margin: 0px 20px;
+    position: relative;
+    bottom: 589px;
+    padding: 0px;
+
 }
