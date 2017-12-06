@@ -61,17 +61,17 @@ a > .ps {
 display: none;
 }
 ul {
-    list-style: none
+    list-style: none;
 }
 span > p {
     margin: 0px;
-    color: white
+    color: white;
 }
 #contatbox {
     display: block;
     float: right;
     width:200px;
-    margin: 37px 0px
+    margin: 37px 0px;
 }
 header{
     width: 100%;
@@ -262,7 +262,7 @@ cursor: pointer;
     right: 30px;
     opacity: 0.6;
     z-index: 0;
-    float: left
+    float: left;
 }
 .carousel-sm-l {
     width: 100px;
@@ -272,7 +272,7 @@ cursor: pointer;
     left: 30px;
     opacity: 0.6;
     z-index: 0;
-    float: left
+    float: left;
 }
 .carousel-bg {
     width: 140px;
@@ -290,7 +290,8 @@ cursor: pointer;
 #programDescription {
     width: 800px;
     height: 300px;
-    margin: 0 auto;
+    margin: 20px auto;
+    text-align: center;
 }
 .bt-carousel {
     width: 40px;

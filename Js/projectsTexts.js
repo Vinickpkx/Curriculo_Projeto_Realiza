@@ -1,0 +1,4 @@
+var projectTexts = ["jfasjdaskjbdaks jbdasjbdkjasbdkdasjbdkjasbd kdasjbdkjasbdkdasjbdkjasbdkd asjbdkjasbdkdasjbdkjasbdkdas jbdkjasbdkdasjbdkjasbdkdasjbdkjasbdkdasj bdkjasbdkdasjbdkjasbdkdasjbdkjasbdkdasjbdkjasbdkdasjbdkjasbdkdasjbdkjas bdkdasjbdkjasbdkdasjbdkjasbdkdasjbdkjasbdkjasbdkj absdjkasbdjkasbd",
+             " hhhhhhh hhhhhhh hhhhhhhh hhhhhhhhh hhhhhh hhhhhh hhhhhh hhhhhhh hhhhh hhhhh hhhhhh hhhhhhh hhhhh hhhh h hhhhhhh hhhhhhh hhhhhhhh hhhhhhhhh hhhhhh hhhhhh hhhhhh hhhhhhh hhhhh hhhhh hhhhhh hhhhhhh hhhhh hhhh h hhhhhhh hhhhhhh hhhhhhhh hhhhhhhhh hhhhhh hhhhhh hhhhhh hhhhhhh hhhhh hh",
+             "dsfsjdnfiusd sdio rjsdoir j djisrj oidj osidj fosdj foisdj ofisdj oifjsdoi fjsodi fjosid jfoisdjf oisdjf oisdjfoijsoi djfoisdjfoi jsdoif jsoidf joisdf "];
+var projectTextsActual = 0;

@@ -112,4 +112,48 @@ $(document).ready(function () {
         $(".cimg5").removeClass("cActive");
         $(".cimg1").removeClass("cActive");
     });
+    $("#prox").click(function () {
+
+        if(projectTextsActual == 2) {
+            projectTextsActual = 0;
+        } else {
+            projectTextsActual = projectTextsActual + 1;
+        }
+        
+        $('#programDescription').animate({ marginLeft: "-500px", opacity: 0 }, 350, 'swing', function () {
+           
+            $('#programDescription > p').text(projectTexts[projectTextsActual]);
+            $('#programDescription').css('margin-left', 'auto');
+            $('#programDescription').css('margin-right', '-500px');
+    
+            $('#programDescription').animate({
+                marginRight: "500px",
+                opacity: 1
+            }, 350, 'swing', function () {
+                $('#programDescription').css('margin-right', 'auto');
+            });
+        });  
+    })
+    $("#prev").click(function () {
+        
+        if(projectTextsActual == 0) {
+            projectTextsActual = 2;
+        } else {
+            projectTextsActual = projectTextsActual - 1;
+        }
+
+        $('#programDescription').animate({ marginRight: "-500px", opacity: 0 }, 350, 'swing', function () {
+            $('#programDescription > p').text(projectTexts[projectTextsActual]);
+            $('#programDescription').css('margin-right', 'auto');
+            $('#programDescription').css('margin-left', '-500px');
+    
+            $('#programDescription').animate({
+                marginLeft: "500px",
+                opacity: 1
+            }, 350, 'swing', function () {
+                $('#programDescription').css('margin-left', 'auto');
+            });
+        });  
+    });
+    
 });
