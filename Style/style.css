@@ -55,8 +55,6 @@ a > .ps {
     color: rgb(255, 255, 255);
     font-size: 13px;
     text-align: center;
-    
-
 }
 .liNav:hover .ps {
     color: rgb(255, 255, 255);
@@ -186,11 +184,13 @@ header{
     font-family: title;
     src: url(../Fonts/title.ttf);
 }
+
 #ulcircle{
     float: right;
-    width: 1000px;
+    width: 960px;
     height: 300px;
     margin: 50px 20px;
+    padding: 0px;
 }
 .circle {
     width: 140px;
@@ -199,14 +199,13 @@ header{
 }
 #myCarousel {
     height: 140px;
-    width: 574px;
+    width: 424px;
     margin: 0 auto;
-    background-color: gray;
 }
 #projetshow {
     margin-top: 3px;
     background-color: rgb(12, 8, 6);
-    height: 600px;
+    height: 700px;
 }
 .d1 {
     background-image: url(../Imgs/circle1.png);
@@ -254,4 +253,76 @@ cursor: pointer;
     position: relative;
     bottom: 10px;
     right: 10px;
+}
+.carousel-sm-r {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 20px;
+    right: 30px;
+    opacity: 0.6;
+    z-index: 0;
+    float: left
+}
+.carousel-sm-l {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 20px;
+    left: 30px;
+    opacity: 0.6;
+    z-index: 0;
+    float: left
+}
+.carousel-bg {
+    width: 140px;
+    height: 140px;
+    position: relative;
+    z-index: 1;
+    float: left;
+}
+#myCarousel > ul {
+    height: 140px;
+    width: 340px;
+    float: left;
+    padding: 0px;
+}
+#programDescription {
+    width: 800px;
+    height: 300px;
+    margin: 0 auto;
+}
+.bt-carousel {
+    width: 40px;
+    height: 40px;
+    margin-top: 50px;
+    padding: 0px;
+}
+@media screen and (max-width:1600px) and (min-width:600px) {
+    .democircle {
+        width: 100px;
+        height: 100px;
+        float: left;
+        margin: 10px;
+    }
+    #ulcircle{
+        float: right;
+        width: 720px;
+        height: 300px;
+        margin: 50px 20px;
+        padding: 0px;
+    }
+    .circle {
+        width: 100px;
+        height: 100px;
+        float: left;
+    }
+    .cActive {
+        width: 120px;
+        height: 120px;
+        margin: 0px;
+        position: relative;
+        bottom: 10px;
+        right: 10px;
+    }
 }
